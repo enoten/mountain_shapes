@@ -87,7 +87,6 @@ Alternative names supported: `Kanchenjanga` → Kangchenjunga, `Shisha Pangma` �
 mountain_profiles/
 ├── everest_3D.py      # Static 3D wireframe visualization
 ├── everest_3D_1.py    # Animated 3D wireframe (rotating)
-├── wired_mountain.py  # Stylized wire silhouette (no API)
 ├── requirements.txt
 ├── .env               # API key (create this, do not commit)
 └── README.md
@@ -99,3 +98,4 @@ mountain_profiles/
 - **`REQUEST_DENIED`**: Enable the Elevation API in Google Cloud Console
 - **`GOOGLE_MAPS_API_KEY not found`**: Create a `.env` file with `GOOGLE_MAPS_API_KEY=your_key`
 - **400 Bad Request**: API key may be invalid or Elevation API may not be enabled
+
